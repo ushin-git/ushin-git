@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Tanishq — Android developer</title>
+  <desc id="desc">A dark green gradient banner with a soft abstract audio waveform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b17"/>
+      <stop offset="0.55" stop-color="#173b30"/>
+      <stop offset="1" stop-color="#11251f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#82e6b5" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#a5f0ca" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#82e6b5" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#61d99f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#61d99f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="990" cy="60" r="260" fill="url(#glow)"/>
+  <path d="M0 230 C190 170 290 280 465 215 S755 170 900 220 1090 252 1200 195" fill="none" stroke="#8ce3bd" stroke-opacity="0.12" stroke-width="2"/>
+  <g fill="url(#line)">
+    <rect x="770" y="132" width="8" height="36" rx="4"/>
+    <rect x="792" y="112" width="8" height="76" rx="4"/>
+    <rect x="814" y="90" width="8" height="120" rx="4"/>
+    <rect x="836" y="121" width="8" height="58" rx="4"/>
+    <rect x="858" y="74" width="8" height="152" rx="4"/>
+    <rect x="880" y="105" width="8" height="92" rx="4"/>
+    <rect x="902" y="132" width="8" height="38" rx="4"/>
+    <rect x="924" y="96" width="8" height="110" rx="4"/>
+    <rect x="946" y="122" width="8" height="60" rx="4"/>
+    <rect x="968" y="81" width="8" height="142" rx="4"/>
+    <rect x="990" y="113" width="8" height="78" rx="4"/>
+    <rect x="1012" y="135" width="8" height="32" rx="4"/>
+    <rect x="1034" y="102" width="8" height="100" rx="4"/>
+    <rect x="1056" y="126" width="8" height="52" rx="4"/>
+    <rect x="1078" y="94" width="8" height="116" rx="4"/>
+    <rect x="1100" y="120" width="8" height="64" rx="4"/>
+  </g>
+  <text x="78" y="137" fill="#f3f7f3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22" font-weight="600" letter-spacing="5">BUILDING FOR ANDROID</text>
+  <text x="74" y="207" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="62" font-weight="750" letter-spacing="-2">Tanishq</text>
+  <rect x="78" y="232" width="58" height="4" rx="2" fill="#8ce3bd"/>
+</svg>
